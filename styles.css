@@ -369,3 +369,98 @@ nav#main-menu ul li a.active {
   color: #ff589e;
   font-size: 14px;
 }
+
+#pricing {
+  background: #f2f2fe;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#pricing h2 {
+  font-weight: normal;
+}
+
+#pricing p {
+  color: #777;
+  width: 40%;
+  margin: 0 30%;
+}
+
+#pricing .pricing-plans-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+#pricing .pricing-plans-list li {
+  background: #fff;
+  width: 30%;
+  border-radius: 25px;
+}
+
+#pricing .pricing-plans-list h3 {
+  color: #1e1e1e;
+  font-size: 17px;
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+#pricing .pricing-plans-list .price-wrapper {
+  background: #8261ee;
+  display: inline-block;
+  width: 80%;
+  margin: 15px 10%;
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px 0;
+}
+
+#pricing .pricing-plans-list .feature {
+  background: #ff589e;
+}
+
+#pricing .pricing-plans-list .price-wrapper .currency {
+  font-size: 32px;
+}
+
+#pricing .pricing-plans-list .price-wrapper .price {
+  font-size: 32px;
+}
+
+#pricing .pricing-plans-list .price-wrapper .period {
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+}
+
+#pricing .pricing-plans-list .price-features-list {
+  margin-bottom: 20px;
+}
+
+#pricing .pricing-plans-list .price-features-list li {
+  width: 100%;
+  color: #7a7a7a;
+  font-size: 13px;
+  margin: 15px 0;
+}
+
+#pricing .pricing-plans-list .price-features-list li.disabled {
+  text-decoration: line-through;
+}
+
+#pricing .pricing-plans-list a {
+  background: #8261ee;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  border-radius: 25px;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  transition: all 0.3s ease;
+}
+
+#pricing .pricing-plans-list a:hover {
+  background: #ff589e;
+}
