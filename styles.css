@@ -211,3 +211,87 @@ nav#main-menu ul li a.active {
 #about .business-text p {
   color: #777;
 }
+
+#work-process {
+  background: url(img/work-process-bg.png) no-repeat center;
+  text-align: center;
+  background-size: cover;
+  margin-top: 150px;
+  min-height: 215px;
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#work-process h2 {
+  color: #fff;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+#work-process p {
+  color: #fff;
+  width: 50%;
+  margin: 50px 25%;
+}
+
+#work-process ul {
+  display: flex;
+  margin-top: 40px;
+}
+
+#work-process ul li a {
+  background: #fff;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  margin: 0 20px;
+  border-radius: 16px;
+  box-shadow: 0 2px 48px 0 rgb(0 0 0 / 8%);
+  transition: all 0.3s ease;
+}
+
+#work-process ul li a:hover {
+  transform: translateY(-10px);
+}
+
+#work-process ul li a::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background: #fff;
+  width: 100%;
+  opacity: 0.15;
+  height: 100%;
+  bottom: -10px;
+  left: 0px;
+  right: -20px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+#work-process ul li a img,
+#work-process ul li a strong,
+#work-process ul li a span {
+  display: block;
+  padding: 5px 0;
+  margin: 10px 10%;
+}
+
+#work-process ul li a img {
+  margin: 10px auto;
+}
+
+#work-process ul li a strong {
+  font-weight: normal;
+  color: #1e1e1e;
+}
+
+#work-process ul li a span {
+  color: #777;
+  font-size: 14px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 1.2em;
+}
