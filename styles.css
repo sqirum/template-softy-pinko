@@ -57,6 +57,8 @@ nav#main-menu {
   border-radius: 50px;
   position: fixed;
   z-index: 1;
+  width: 70%;
+  margin: 0 15%;
 }
 
 nav#main-menu h1 {
@@ -294,4 +296,76 @@ nav#main-menu ul li a.active {
   margin-left: 20%;
   margin-right: 20%;
   line-height: 1.2em;
+}
+
+#testimonials {
+  text-align: center;
+  margin: 150px 0;
+}
+
+#testimonials h2 {
+  font-weight: normal;
+  font-size: 28px;
+  color: #1e1e1e;
+}
+
+#testimonials p {
+  color: #777;
+  width: 60%;
+  margin: 50px 20%;
+}
+
+#testimonials ul {
+  display: flex;
+}
+
+#testimonials .testimonials-item {
+  background: #fff;
+  box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
+  margin: 0 20px;
+  width: 33.33%;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#testimonials .testimonials-icon {
+  height: 40px;
+  margin: 20px auto;
+  background: url(img/testimonial-icon.png) no-repeat center;
+  display: block;
+}
+
+#testimonials .testimonials-item p {
+  line-height: 1.5em;
+  width: 90%;
+  margin: 10px 5%;
+}
+
+#testimonials .testimonials-item img {
+  display: inline-block;
+  border-radius: 50%;
+  transform: translateY(12px);
+  margin-left: 20px;
+}
+
+#testimonials .testimonials-author {
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+  width: 70%;
+  transition: all 0.3s ease;
+}
+
+#testimonials .testimonials-author:hover {
+  transform: translateX(20px);
+}
+
+#testimonials .testimonials-author p.name {
+  margin: 0 0 0 10px;
+}
+
+#testimonials .testimonials-author p.position {
+  margin: 0 0 25px 10px;
+  color: #ff589e;
+  font-size: 14px;
 }
