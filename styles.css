@@ -464,3 +464,52 @@ nav#main-menu ul li a.active {
 #pricing .pricing-plans-list a:hover {
   background: #ff589e;
 }
+
+section#counter {
+  background: url(img/fun-facts-bg.png) no-repeat;
+  background-size: cover;
+}
+
+#counter ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+}
+
+#counter ul li {
+  color: #fff;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: default;
+  position: relative;
+}
+
+#counter ul li:hover {
+  transform: translateY(-20px);
+}
+
+#counter ul li::after {
+  content: "";
+  position: absolute;
+  background: url(img/circle-dec.png) no-repeat center center;
+  height: 32px;
+  width: 100%;
+  left: 70%;
+  transform: translateX(75px) translateY(-50px);
+}
+
+#counter ul li:last-child::after {
+  background: none;
+}
+
+#counter ul li strong {
+  display: block;
+  font-size: 36px;
+  margin: 5px 0;
+}
+
+#counter ul li span {
+  font-size: 17px;
+  display: block;
+  margin: 5px 0;
+}
