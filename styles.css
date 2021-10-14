@@ -392,10 +392,11 @@ nav#main-menu ul li a.active {
   margin-top: 50px;
 }
 
-#pricing .pricing-plans-list li {
+#pricing .pricing-plans-list li.pricing-plans-item {
   background: #fff;
   width: 30%;
   border-radius: 25px;
+  box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
 }
 
 #pricing .pricing-plans-list h3 {
@@ -512,4 +513,78 @@ section#counter {
   font-size: 17px;
   display: block;
   margin: 5px 0;
+}
+
+#blog {
+  background: #fff;
+}
+
+#blog h2 {
+  font-weight: normal;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#blog p {
+  color: #777;
+  text-align: center;
+  width: 0 60%;
+  margin: 0 20%;
+}
+
+#blog ul {
+  display: flex;
+  margin: 50px 0;
+}
+
+#blog ul li {
+  width: 33.33%;
+}
+
+#blog ul li:nth-child(2) {
+  margin: 0 30px;
+}
+
+#blog ul li h5 a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: #1e1e1e;
+  margin: 20px 0;
+  font-weight: normal;
+  transition: all 0.3s ease;
+}
+
+#blog ul li h5 a:hover {
+  color: #ff589e;
+}
+
+#blog ul li p {
+  width: 80%;
+  margin: 0 10%;
+}
+
+#blog ul li a.read-more {
+  text-transform: uppercase;
+  background: #8261ee;
+  padding: 13px 0;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: lighter;
+  transition: all 0.3s ease;
+  margin: 20px 35%;
+  display: block;
+  text-align: center;
+}
+
+#blog ul li a.read-more:hover {
+  background: #ff589e;
+}
+
+#contact {
+  background: #f2f2fe;
 }
