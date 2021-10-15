@@ -587,4 +587,128 @@ section#counter {
 
 #contact {
   background: #f2f2fe;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#contact h2 {
+  font-weight: normal;
+  color: #1e1e1e;
+  font-size: 28px;
+}
+
+#contact p {
+  color: #777;
+  width: 0 60%;
+  margin: 0 20%;
+}
+
+#contact .form-block {
+  display: flex;
+  text-align: left;
+  margin-top: 50px;
+}
+
+#contact .form-block .info {
+  display: inline-block;
+  width: 30%;
+}
+
+#contact .form-block .info h5 {
+  font-size: 18px;
+  color: #1e1e1e;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+#contact .form-block .info p {
+  color: #777;
+  width: 100%;
+  margin: 0;
+}
+
+#contact .form-block form {
+  display: inline-block;
+  width: 65%;
+  margin-left: 5%;
+}
+
+#contact form input {
+  display: inline-block;
+  width: 45%;
+  line-height: 20px;
+  border-radius: 20px;
+  padding: 15px 0;
+  outline: none;
+  border: 1px solid #eee;
+  font-size: 14px;
+  color: #777;
+  padding-left: 20px;
+}
+
+#contact form input:nth-child(2) {
+  margin-left: 9%;
+}
+
+#contact form textarea {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid #eee;
+  font-size: 14px;
+  color: #777;
+  padding: 15px 0;
+  padding-left: 20px;
+  margin: 20px 0;
+  resize: none;
+}
+
+#contact form a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background: #8261ee;
+  border-radius: 20px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+#contact form a:hover {
+  background: #ff589e;
+}
+
+footer {
+  background: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+  padding: 50px 0;
+}
+
+footer ul {
+  display: flex;
+  width: 15%;
+  margin: 0 42.5%;
+  text-align: center;
+  justify-content: space-around;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #ff589e;
+}
+
+footer ul li a i {
+  font-size: 28px;
+}
+
+footer p {
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
 }
